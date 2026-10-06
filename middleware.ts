@@ -3,8 +3,9 @@ import type { NextRequest } from "next/server"
 
 const ALLOWED_ORIGINS = [
   "http://localhost:3000",
-  "https://collaborative-document-editor-leo5.vercel.app", // TODO: apna asli deployed frontend URL yaha daalo
-]
+  "http://localhost:3001",
+  "https://collaborative-document-ed-git-5faa1e-keshavbrcsm-58.vercel.app",
+];
 
 function corsHeaders(origin: string | null) {
   const headers = new Headers()
